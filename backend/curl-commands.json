@@ -1,5 +1,5 @@
 {
-  "get": "https://xnue39keha.execute-api.eu-west-1.amazonaws.com/latest/todo",
-  "post": "curl -H "Content-Type: application/json" -X POST -d \'{"id": "0", "body": "take out bins", "assignee": "chris", "isComplete": "false"}' https://xnue39keha.execute-api.eu-west-1.amazonaws.com/latest/todo",
-  "put": "curl -H "Content-Type: application/json" -X PUT -d '{"id": "0", "body": "take out bins", "assignee": "chris", "isComplete": "true"}' https://xnue39keha.execute-api.eu-west-1.amazonaws.com/latest/todo"
+  "get": "https://ylei5smxy9.execute-api.eu-west-1.amazonaws.com/latest/todo",
+  "post": "curl -H "Content-Type: application/json" -X POST -d \'{"id": "0", "body": "take out bins", "assignee": "chris", "isComplete": "false"}' https://ylei5smxy9.execute-api.eu-west-1.amazonaws.com/latest/todo",
+  "put": "curl -H "Content-Type: application/json" -X PUT -d '{"id": "0", "body": "take out bins", "assignee": "chris", "isComplete": "true"}' https://ylei5smxy9.execute-api.eu-west-1.amazonaws.com/latest/todo"
 }
