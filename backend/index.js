@@ -31,16 +31,14 @@ api.put('/todo', (req) => {
       id: req.body.id
     },
     UpdateExpression: `set
-      id = :a,
-      body = :b,
-      assignee = :c,
-      isComplete = :d
+      body = :a,
+      assignee = :b,
+      isComplete = :c
     `,
     ExpressionAttributeValues: {
-      ':a': req.body.id ,
-      ':b': req.body.body,
-      ':c': req.body.assignee,
-      ':d': req.body.isComplete
+      ':a': req.body.body,
+      ':b': req.body.assignee,
+      ':c': req.body.isComplete
     },
   })
   .promise()
